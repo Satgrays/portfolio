@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-permalink: /about/
+permalink: /portfolio/about/
 ---
 
 # About Academics Made Easy
