@@ -1,25 +1,42 @@
 title: "Academics Made Easy"
-description: "Notas y resúmenes claros de IA, cómputo y ciberseguridad."
-# URL del sitio (producción). Ajusta si añades dominio propio.
+description: "Clear notes and summaries on AI, computing, and cybersecurity. Making complex topics accessible through visual learning and practical examples."
+# Site URL (production). Adjust if you add a custom domain.
 url: "https://satgrays.github.io"
 baseurl: ""
-
 theme: minima
 markdown: kramdown
 
-# Plugins soportados por GitHub Pages
+# Plugins supported by GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Páginas en el header del tema minima
+# Pages in the minima theme header
 header_pages:
   - about.md
 
-# Metadatos opcionales
+# Optional metadata
 author:
   name: "Satgrays"
-  email: ""
+  email: "erandiram2003@gmail.com"
 
-# Opcional: idioma para etiquetas HTML
-lang: es
+# Language for HTML tags (changed to English)
+lang: en
+
+# Social media and contact info (optional)
+github_username: satgrays
+# twitter_username: yourusername
+# linkedin_username: yourusername
+
+# Additional SEO settings
+social:
+  name: "Academics Made Easy"
+  links:
+    - https://github.com/satgrays
+
+# Excerpt settings
+show_excerpts: true
+
+# Pagination (optional)
+paginate: 10
+paginate_path: "/page:num/"
